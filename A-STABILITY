@@ -1,0 +1,21 @@
+// g i v e n s y s t em y( n) =x( n+7 )
+clear ;
+clc ;
+x = [1 ,2 ,3 ,4 ,0 ,2 ,1 ,3 ,5 ,8]; // Assign input values
+Maximum_Limit = 10;
+S = 0;
+for t = 0: Maximum_Limit -1
+y( n) =x( n+7 ) ;
+end
+if ( n > Maximum_Limit )
+
+disp ( ’ Eventhough i n p u t i s bounded o u t p u t i s
+unbounded ’ )
+disp ( ’ The g i v e n s y s t em i s u n s t a b l e ’ ) ;
+disp ( ’ n = ’ ) ;
+S
+else
+disp ( ’ The g i v e n s y s t em i s s t a b l e ’ ) ;
+disp ( ’ The v a l u e of S = ’ ) ;
+S
+end
