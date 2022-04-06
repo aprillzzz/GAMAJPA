@@ -1,0 +1,19 @@
+// The g i v e n d i s c r e t e s i g n a l i s y ( n) = x(n+7)
+clear ;
+clc ;
+to = 2; //Assume t h e amount of tim e s h i f t =2
+T = 10; // Leng th of g i v e n s i g n a l
+=for k = 1: k
+x( n ) = (n+7 -K  ;
+y ( t ) = sin( x ( t ) ) ;
+end
+// F i r s t s h i f t t h e i n p u t s i g n a l o nl y
+Input_shift = sin ( x (T - to ) ) ;
+Output_shift = y (T - to ) ;
+if( Input_shift == Output_shift )
+disp ( ’ The g i v e n d i s c r e t e s y s t em i s a Time In−
+v a r i a n t s y s t em ’ ) ;
+else
+disp ( ’ The g i v e n d i s c r e t e s y s t em i s a Time V a ri a n t
+s y s t em ’ ) ;
+end
